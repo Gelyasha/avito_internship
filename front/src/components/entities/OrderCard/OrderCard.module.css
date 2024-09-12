@@ -1,0 +1,19 @@
+.card {
+    min-width: 300px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.card button {
+    margin: 20px 0px;
+}
+
+.advertisements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.itemProperty {
+    color: rgba(0, 0, 0, 0.88);
+}

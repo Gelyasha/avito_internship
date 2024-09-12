@@ -1,0 +1,11 @@
+.list {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    height: max-content;
+}
+
+.paginate {
+    display: flex;
+    justify-content: center;
+}

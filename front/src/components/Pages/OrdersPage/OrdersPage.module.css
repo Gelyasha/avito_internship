@@ -1,0 +1,15 @@
+.filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cards > div:not(:first-child) {
+    margin-top: 20px;
+}
+
+.paginate {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
